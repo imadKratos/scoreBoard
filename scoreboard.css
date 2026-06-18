@@ -1,0 +1,82 @@
+@font-face {
+  src: url("../fonts/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
+  font-family: "cursedtimer";
+}
+
+@font-face {
+  src: url("../fonts/danger-on-the-motorway-font/DangerOnTheMotorway-xV10.ttf");
+  font-family: "motorway";
+}
+@font-face {
+  src: url("../fonts/bighome-2-font/Bighome-G3ELm.otf");
+  font-family: "bighome";
+}
+@font-face {
+  src: url("../fonts/loscarlo-font/LoscarloPersonalUse-8M37z.otf");
+  font-family: "loscar";
+}
+@font-face {
+  src: url("../fonts/Graduate/Graduate-Regular.ttf");
+  font-family: "grad";
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "grad";
+  margin: 8px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 550px;
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid rgb(194, 186, 186);
+  border-radius: 15px;
+  background-color: rgb(15, 17, 104);
+}
+
+.score-sect {
+  text-align: center;
+  margin: 20px 0 50px;
+  letter-spacing: 5px;
+}
+
+.headings {
+  margin-bottom: 5px;
+  font-size: 30px;
+  color: white;
+}
+
+.board {
+  font-size: 60px;
+  font-family: "cursedtimer";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  width: 150px;
+  height: 130px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.points-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  border: 1px solid rgb(126, 126, 126);
+  border-radius: 5px;
+  color: rgb(126, 126, 126);
+  background-color: rgb(15, 17, 104);
+  padding: 8px;
+  font-size: 18px;
+  font-family: "cursedtimer";
+  cursor: pointer;
+}
