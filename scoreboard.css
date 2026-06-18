@@ -1,22 +1,22 @@
 @font-face {
-  src: url("../fonts/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
+  src: url("./fonts/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
   font-family: "cursedtimer";
 }
 
 @font-face {
-  src: url("../fonts/danger-on-the-motorway-font/DangerOnTheMotorway-xV10.ttf");
+  src: url("./fonts/danger-on-the-motorway-font/DangerOnTheMotorway-xV10.ttf");
   font-family: "motorway";
 }
 @font-face {
-  src: url("../fonts/bighome-2-font/Bighome-G3ELm.otf");
+  src: url("./fonts/bighome-2-font/Bighome-G3ELm.otf");
   font-family: "bighome";
 }
 @font-face {
-  src: url("../fonts/loscarlo-font/LoscarloPersonalUse-8M37z.otf");
+  src: url("./fonts/loscarlo-font/LoscarloPersonalUse-8M37z.otf");
   font-family: "loscar";
 }
 @font-face {
-  src: url("../fonts/Graduate/Graduate-Regular.ttf");
+  src: url("./fonts/Graduate/Graduate-Regular.ttf");
   font-family: "grad";
 }
 

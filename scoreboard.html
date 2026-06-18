@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>SCORE BOARD</title>
-    <link rel="stylesheet" href="../css/scoreboard.css">
-    <link rel="icon" type="image/x-icon" href="../imgs/basketball.png">
-  </head>
-  <body>
-    <div id="container">
-      <div class="score-sect">
-        <h2 class="headings">HOME</h2>
-        <div class="board" id="home"></div>
-        <div class="points-container">
-          <button class="box" id="onep">+1</button>
-          <button class="box" id="twop">+2</button>
-          <button class="box" id="threep">+3</button>
-        </div>
-    </div>
-    
+
+<head>
+  <title>SCORE BOARD</title>
+  <link rel="stylesheet" href="./scoreboard.css">
+  <link rel="icon" type="image/x-icon" href="./basketball.png">
+</head>
+
+<body>
+  <div id="container">
     <div class="score-sect">
-      <h2 class="headings">GUEST</h2>
+      <h2 class="headings">HOME</h2>
+      <div class="board" id="home"></div>
+      <div class="points-container">
+        <button class="box" id="onep">+1</button>
+        <button class="box" id="twop">+2</button>
+        <button class="box" id="threep">+3</button>
+      </div>
+    </div>
+
+    <div class="score-sect">
+      <h2 class="headings">AWAY</h2>
       <div class="board" id="guest"></div>
       <div class="points-container">
         <button class="box" id="onepG">+1</button>
@@ -26,7 +28,8 @@
         <button class="box" id="threepG">+3</button>
       </div>
     </div>
-    </div>
-    <script src="../js/scoreboard.js"></script>
-  </body>
+  </div>
+  <script src="./scoreboard.js"></script>
+</body>
+
 </html>
